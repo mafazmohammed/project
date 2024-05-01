@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 15px;
+}
+a{
+  text-decoration: none;
+  color: var(--text);
+}
+p{
+  color: var(--text);
+}
+.course1 {
+  display: inline-block;
+  padding: 5px;
+  background-color: antiquewhite;
+  margin: 5px;
+  width: 400px;
+  border-radius: 10px;
+}
+img {
+  width: 100%;
+}
+button{
+  text-align: center;
+  border: none;
+  background-color: brown;
+  color: #ffffff;
+  border-radius: 40px;
+  padding: 5px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.imgg{
+  width: 80px;
+}
